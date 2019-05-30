@@ -1,0 +1,11 @@
+[package]
+name = "quicksort"
+version = "0.1.0"
+authors = ["Masashi Hirano <shisama07@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "quick"
+path = "src/quick.rs"
