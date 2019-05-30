@@ -1,5 +1,5 @@
 [package]
-name = "quicksort"
+name = "sort"
 version = "0.1.0"
 authors = ["Masashi Hirano <shisama07@gmail.com>"]
 edition = "2018"
