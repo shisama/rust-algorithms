@@ -9,3 +9,7 @@ edition = "2018"
 [[bin]]
 name = "quick"
 path = "src/quick.rs"
+
+[[bin]]
+name = "merge"
+path = "src/merge.rs"
