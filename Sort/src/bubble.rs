@@ -5,13 +5,10 @@ fn main() {
 }
 
 fn sort(A: &mut [u32]) {
-  let len = A.len();
-  for i in 0..len - 1 {
-    for j in (i + 1..len).rev() {
+  for i in 0..A.len() - 1 {
+    for j in (i + 1..A.len()).rev() {
       if A[j - 1] > A[j] {
-        let tmp = A[j - 1];
-        A[j - 1] = A[j];
-        A[j] = tmp;
+        A.swap(j - 1, j);
       }
     }
   }
