@@ -13,3 +13,7 @@ path = "src/quick.rs"
 [[bin]]
 name = "merge"
 path = "src/merge.rs"
+
+[[bin]]
+name = "bubble"
+path = "src/bubble.rs"
