@@ -21,3 +21,7 @@ path = "src/bubble.rs"
 [[bin]]
 name = "selection"
 path = "src/selection.rs"
+
+[[bin]]
+name = "insertion"
+path = "src/insertion.rs"
