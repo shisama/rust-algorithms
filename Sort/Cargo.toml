@@ -17,3 +17,7 @@ path = "src/merge.rs"
 [[bin]]
 name = "bubble"
 path = "src/bubble.rs"
+
+[[bin]]
+name = "selection"
+path = "src/selection.rs"
