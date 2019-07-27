@@ -25,3 +25,7 @@ path = "src/selection.rs"
 [[bin]]
 name = "insertion"
 path = "src/insertion.rs"
+
+[[bin]]
+name = "counting"
+path = "src/counting.rs"
