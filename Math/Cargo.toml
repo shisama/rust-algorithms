@@ -1,0 +1,11 @@
+[package]
+name = "Math"
+version = "0.1.0"
+authors = ["Masashi Hirano <cherrydog07@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "euclid"
+path = "src/euclid.rs"
