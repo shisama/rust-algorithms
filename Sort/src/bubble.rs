@@ -4,11 +4,11 @@ fn main() {
   println!("{:?}", array);
 }
 
-fn sort(A: &mut [u32]) {
-  for i in 0..A.len() - 1 {
-    for j in (i + 1..A.len()).rev() {
-      if A[j - 1] > A[j] {
-        A.swap(j - 1, j);
+fn sort(a: &mut [u32]) {
+  for i in 0..a.len() - 1 {
+    for j in (i + 1..a.len()).rev() {
+      if a[j - 1] > a[j] {
+        a.swap(j - 1, j);
       }
     }
   }
